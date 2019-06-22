@@ -1,0 +1,36 @@
+{
+	"name": "david63/trimsubject",
+	"type": "phpbb-extension",
+	"description": "Set the length of a topic subject.",
+	"version": "2.1.0-RC1",
+	"time": "2017-07-24",
+	"keywords": [
+		"phpbb",
+		"extension",
+		"trim",
+		"subject"
+	],
+	"license": "GPL-2.0-only",
+	"authors": [{
+			"name": "David Wood",
+			"role": "Developer"
+		}],
+	"require": {
+        "php": ">=5.3.3",
+        "composer/installers": "~1.0"
+    },
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "[*] Trim last subject",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.2.1-RC1"
+      	},
+		"version-check": {
+        	"host": "version.phpbbdev.space",
+        	"directory": "/3.2",
+        	"filename": "/trim_subject_version_file.json"
+    	}
+	}
+}
