@@ -98,7 +98,7 @@ class listener implements EventSubscriberInterface
 		{
 			$forum_rows = $event['forum_rows'];
 
-			foreach($forum_rows as $key => $rows)
+			foreach ($forum_rows as $key => $rows)
 			{
 				$subject 			= $forum_rows[$key]['forum_last_post_subject'];
 				$subject_truncated	= truncate_string($subject, $this->config['trim_subject_length'], 255, false, $this->language->lang('ELLIPSIS'));
