@@ -7,6 +7,7 @@ Set the length of a topic subject.
 [![Latest Stable Version](https://poser.pugx.org/david63/trimsubject/v/stable)](https://packagist.org/packages/david63/trimsubject)
 [![Latest Unstable Version](https://poser.pugx.org/david63/trimsubject/v/unstable)](https://packagist.org/packages/david63/trimsubject)
 [![Total Downloads](https://poser.pugx.org/david63/trimsubject/downloads)](https://packagist.org/packages/david63/trimsubject)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e317a9fe465c484fa007ceccc0a9d8da)](https://www.codacy.com/manual/david63/trimsubject?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=david63/trimsubject&amp;utm_campaign=Badge_Grade)
 
 ## Minimum Requirements
 * phpBB 3.2.0
