@@ -63,7 +63,7 @@ class listener implements EventSubscriberInterface
 		{
 			$new_display_var = array(
 				'title'	=> $event['display_vars']['title'],
-				'vars'	=> array(),
+				'vars'	=> [],
 			);
 
 			foreach ($event['display_vars']['vars'] as $key => $content)
